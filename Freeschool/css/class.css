@@ -1,0 +1,253 @@
+.class-div01-1 {
+  margin-top: 150px !important;
+}
+
+.class-div01 {
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-left: 100px !important;
+  margin-right: 100px !important;
+  display: inline-block;
+  margin-bottom: 30px;
+  box-shadow: 0px 3px 8px 3px rgb(235, 235, 235);
+  padding-top: 10px;
+}
+
+.class-div01:hover{
+  box-shadow: 0px 3px 10px 4px rgb(226, 226, 226);
+  border: 3px solid #ff5157;
+  border-top: hidden;
+  border-bottom: hidden;
+  border-right: hidden;
+}
+
+
+/* .class-img{
+width: 130px;
+height: 130px;
+border-radius: 100%;
+background-color: rgb(96, 99, 99);
+margin-top: 10px;
+margin-left: 20px;
+} */
+.class-cont {
+  margin-left: 20px;
+}
+
+.class-cont h1 {
+  font-size: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.644);
+  text-decoration: underline;
+}
+
+.class-cont p {
+  font-size: 20px;
+}
+
+.class-cont a {
+  color: #ff474c;
+}
+
+.class-cont a:hover {
+  color: #f7545a;
+}
+
+.class-te {
+  width: 300px;
+  
+}
+
+.class-date {
+  width: 400px;
+  
+}
+
+.class-stu {
+  width: 300px;
+
+}
+
+.class-time {
+  margin-left: 50px;
+}
+
+.class-link {
+  display: inline-flex;
+}
+
+.class-link label{
+font-size: 25px;
+}
+
+.copy-text{
+    margin-left: 20px;
+}
+
+.class-btn-stu{
+  height: 39px;
+  border: none;
+  background-color: #ff474c;
+  border-radius: 10px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 205px;
+}
+
+.class-btn-stu:hover{
+  background-color: #ff3a40;
+  transform: scale(1.02);
+  transition:400ms;
+}
+
+
+@media only screen and (max-width: 576px) {
+  .class-div01 {
+    height: 290px;
+    margin: 0px 5px 20px 5px !important;
+    padding-top: 5px;
+    
+  }
+
+  .class-div01-1 {
+    margin-top: 150px !important;
+    
+  }
+
+  .class-cont {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .class-cont h1{
+      font-size: 35px;
+  }
+
+  .class-cont p {
+    font-size: 18px;
+  }
+
+  .class-te {
+    width: 200px;
+  }
+
+  .class-date {
+   width: 80px;
+    
+    
+  }
+
+  .class-date p{
+    font-size: 15px;
+  }
+
+  .class-stu p{
+    font-size: 15px;
+  }
+
+  .class-stu {
+    width: 200px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .class-link {
+    position: relative;
+    top: 0px;
+
+  }
+
+  .class-link label{
+    font-size: 16px;
+    }
+    
+    .copy-text{
+        margin-left: 10px;
+    }
+    .copy-text{
+        width: 220px !important;
+    }
+    .copy-text input.text{
+        width: 177px !important;
+        padding-right: 0px !important;
+    }
+    .copy-text button{
+      font-size: 16px !important;
+      margin-top: 3px;
+    }
+
+
+    .class-btn-stu{
+
+      margin-left: 17px;
+      font-size: 14px;
+    }
+
+
+
+
+}
+
+/****** copy link clip bord *********/
+
+.copy-text {
+  position: relative;
+  padding: px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 380px;
+  height: 40px;
+}
+.copy-text input.text {
+  padding: 3px 8px;
+  font-size: 18px;
+  color: #555;
+  border: none;
+  outline: none;
+  padding-right: 50px;
+  width: 340px;
+  height: 25px;
+}
+.copy-text button {
+  padding: 4px 6px 4px 6px;
+  background: #ff5e63;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1px;
+}
+.copy-text button:active {
+  background: #fc868a;
+}
+.copy-text button:before {
+  content: "Copied";
+  position: absolute;
+  top: -45px;
+  right: 0px;
+  background: #ff5e63;
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  display: none;
+}
+.copy-text button:after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 25px;
+  width: 10px;
+  height: 10px;
+  background: #ff5e63;
+  transform: rotate(45deg);
+  display: none;
+}
+.copy-text.active button:before,
+.copy-text.active button:after {
+  display: block;
+}

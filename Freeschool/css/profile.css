@@ -1,0 +1,359 @@
+.profile-back {
+  background-color: rgb(207, 206, 206);
+  height: 250px;
+  margin-top: 100px;
+  border-radius: 30px 30px 0px 0px;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profile-pic {
+  width: 190px;
+  height: 190px;
+  border-radius: 100%;
+  background-color: rgb(175, 175, 175);
+  margin: -100px 0px 0px 50px;
+  border: 6px solid #e8ebf3;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 140%;
+
+}
+
+.profile-n {
+  text-align: left;
+  margin-left: 250px;
+  margin-top: -88px;
+  
+}
+
+.profile-n h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.profile-n p {
+  font-size: 18px;
+  font-weight: 0;
+  margin-top: -7px;
+  color: rgba(0, 0, 0, 0.637);width: 750px;
+}
+
+.profile-cou{
+   display: inline-flex;
+   position: relative;
+   top: -3px;
+   font-weight: bold;
+   color: rgba(0, 0, 0, 0.616);
+}
+
+.profile-cou div:nth-child(1){
+    width: 250px;
+    
+}
+
+
+.profile-contact {
+  display: flex;
+  position: relative;
+  top: -70px;
+  float: right;
+}
+
+.profile-contact button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2bc9, #ff416c);
+  color: white;
+  font-size: 17px;
+}
+
+.profile-contact button:nth-child(1):hover {
+    background-color:#ff416c ;
+    transform: scale(1.02);  
+    transition: 200ms;
+}
+
+.profile-contact button:nth-child(2) {
+  margin-left: 30px;
+  width: 160px;
+
+
+}
+
+.profile-contact button:nth-child(2):hover {
+    background-color:#ff416c ;
+    transform: scale(1.02);
+    transition: 200ms;
+    
+}
+
+.profile-detail{
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
+.profile-social{
+    /* background-color: rgb(255, 255, 255); */
+    height: 220px;
+    width: 30%;
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 3px 8px 2px rgb(226, 226, 226);
+}
+
+
+
+.profile-stu-cou{
+    /* background: #ff416c;
+    background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c); */
+    background: linear-gradient(to right, #ff4b2bf5, #ff416c);
+    
+    width: 90%;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.profile-stu-cou p{
+    margin-top: 5px;
+    vertical-align: middle;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.profile-stu-cou svg{
+    width: 32px;
+    margin-top: -10px;
+    margin-left: 6px;
+}
+
+.profile-subject{
+
+width: 90%;
+position: relative;
+top: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.profile-subject p{
+ font-size: 21px;
+ 
+ color: rgba(0, 0, 0, 0.651);
+}
+
+.profile-subject div{
+    margin-top: -19px;
+    
+}
+
+.profile-subject div button{
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+}
+
+.profile-subject button:hover{
+    background-color: rgb(238, 238, 238);  
+}
+
+
+.profile-about{
+    background-color: rgb(255, 255, 255);
+    width: 67%;
+    display: block;
+    margin-left: 3%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px 2px rgb(226, 226, 226);
+    padding: 10px 30px 30px 30px;
+
+
+}
+
+.profile-about h1{
+   font-weight: bold;
+   margin-bottom: 15px;
+   color: rgba(0, 0, 0, 0.589);
+}
+
+
+.profile-about p{
+    text-align: justify;
+}
+
+
+
+.profile-class-name h1{
+    width: 67%; 
+    float: right;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.712);
+    padding: 5px 30px;
+    border-radius: 10px;
+    background: #ff416c;
+    background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+    background: linear-gradient(to right, #ff4b2bf5, #ff416c);
+    color: white;
+}
+
+
+.profile-class-de{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255); 
+    width: 67%; 
+    
+    float: right;
+    display: inline-flex;
+    padding: 15px 2px;
+    
+}
+
+
+
+.profile-class-de h2{
+    color: rgba(0, 0, 0, 0.589);
+    width: 75%;
+    margin-left: 20px;
+}
+
+
+.profile-class-de button{
+ width: 20%;
+ border-radius: 10px;
+ border: none;
+ background-color: #ff4b2bf5;
+ color: rgba(255, 255, 255, 0.842);
+ font-size: 22px;
+ font-weight: bold;
+}
+
+.profile-class-de button:hover{
+    color: rgb(255, 255, 255);   
+}
+
+@media only screen and (max-width: 576px) {
+  .profile-back {
+    height: 180px !important;
+  }
+
+  .profile-pic {
+    width: 140px;
+    height: 140px;
+    border: 5px solid #e8ebf3;
+    position: relative;
+    top: 25px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profile-n {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0px;
+    
+  }
+  .profile-n h1{
+      font-size: 31px;
+  }
+
+  .profile-n p{
+    font-size: 17px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.profile-cou{
+    margin-right: 41px;
+}
+
+.profile-contact {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center !important;
+    float: unset;
+    top: 0px;
+}
+
+.profile-contact button {
+    width: 140px;
+    height: 40px;   
+    font-size: 16px;
+  }
+
+.profile-contact button:nth-child(2) {
+    margin-left: 15px;
+  }
+
+  .profile-detail{
+    display: inline;
+    position: relative;
+    top: 20px;
+    
+}
+
+.profile-social{
+    width: 100%;
+    display: block;
+    padding-top: 2px;
+}
+
+.profile-about{
+        
+    width: 100%;
+    display: block;
+    margin-left: 0px !important;
+    margin-top: 20px ;
+    margin-bottom: 30px;
+}
+
+.profile-about h1{
+    font-size: 33px;
+   
+}
+
+
+.profile-class-name h1{
+    font-size: 28px; 
+    margin-top: 10px;
+}
+
+.profile-class h1{
+    width: 100%;
+}
+
+
+.profile-class-de{
+    width: 100%;
+}
+
+.profile-class-de h2{
+    font-size: 25px;
+    width: 73%;
+}
+
+.profile-class-de button{
+    font-size: 15px;
+    height: 40px;
+}
+
+
+}

@@ -1,0 +1,147 @@
+.grade-section {
+  margin-top: 150px !important;
+  margin-bottom: 50px !important;
+}
+
+.grade-h1{
+
+  text-align: center;
+  font-size: 55px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.grade-list {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.grade {
+  background-color: white;
+  box-shadow: 0px 3px 8px 2px rgb(226, 226, 226);
+  height: 160px;
+  margin-bottom: 20px;
+  display: inline-flex;
+}
+
+.grade:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 3px 8px 2px rgb(212, 212, 212);
+}
+
+.grade-nu {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2be8, #ff416c);
+  margin: 20px 15px;
+  border: none;
+  font-size: 60px;
+  color: white;
+  font-weight: 600;
+}
+
+.grade-nu:hover {
+  background: #ff416c;
+  background: -webkit-linear-gradient(to left, #ff4b2b, #ff416c);
+  background: linear-gradient(to left, #ff4b2be8, #ff416c);
+}
+
+.grade-line {
+  width: 7px;
+  height: 120px;
+  background-color: #a8a8a8;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.grade-d2 {
+  margin-left: 20px;
+}
+
+.grade-n {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
+
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.671);
+}
+
+.grade-d3 {
+  display: inline-block;
+}
+
+.grade-teac {
+  margin-top: -25px;
+  font-size: 18px;
+}
+
+.grade-cl {
+  margin-top: -42px;
+  margin-left: 150px;
+  font-size: 18px;
+}
+
+.grade-medi {
+  display: block;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  background: #353535;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  cursor: none;
+  margin-top: -5px;
+}
+
+
+.english{
+    background-color: rgba(0, 0, 0, 0.603) !important;
+}
+
+.grade-btn {
+  width: 110px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #ff4b2b;
+  background: #fd446f;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  position: relative;
+  top: -41px;
+  left: 150px;
+}
+
+.grade-btn:hover {
+  transform: scale(1.02);
+}
+
+@media only screen and (max-width: 576px) {
+  .grade-h1 {
+    font-size: 45px;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  .grade-d2 {
+    margin-left: 50px;
+  }
+}

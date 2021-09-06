@@ -1,0 +1,128 @@
+.tech-pro{
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    margin-top: 50px;
+    width: 32vh;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px 2px rgba(224, 224, 224, 0.747);
+    
+}
+
+.tech-pro-ba{
+    width: 30vh;
+    height: 80px;
+    background-color: rgb(179, 179, 179);
+    position: relative;
+    top: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px 10px 0px 0px;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.tech-pro-pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: rgb(226, 226, 226);
+    position: relative;
+    top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
+.tech-pro-de{
+    text-align: center;
+    margin-top: 37px;
+    padding: 0px 5px 0px 5px;
+}
+
+.tech-pro-de h3{
+    font-size: 24px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.733);
+    
+}
+
+.tech-pro-de a:hover{
+    text-decoration: none;
+}
+
+
+.tech-pro-de h3:hover{
+    color: rgba(0, 0, 0, 0.952);
+    
+}
+
+
+
+.tech-pro-de p{
+ margin-top: -5px;
+ height: 50px;font-size: 15px;
+ color: rgba(0, 0, 0, 0.651);
+
+}
+
+.tech-pro-btn{
+width: 15vh;
+position: relative;
+top: -5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 3px;
+border: none;
+border-radius: 10px;
+background: #FF4B2B;
+
+color: rgba(255, 255, 255, 0.842);
+font-weight: 500;
+}
+
+.tech-pro-btn:hover{
+    color: white;
+}
+
+.tech-pro a:hover{
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+
+
+    .tech-pro-pic{
+        width: 65px;
+        height: 65px;
+        top: 45px !important;
+    }
+
+    .tech-pro{
+        width: 29vh;
+    } 
+    
+    .tech-pro-ba{
+        width: 27vh;
+    }
+    
+
+    .tech-pro-de h3{
+        font-size: 20px;
+    }
+
+    .tech-pro-de p{
+        font-size: 13px;
+    }
+
+}

@@ -1,0 +1,693 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+body {
+  background-color: #e8ebf3 !important;
+}
+
+/******* index page design *****/
+/*******************************/
+/*******************************/
+/*******************************/
+/*******************************/
+
+.freeschool {
+  font-size: 38px !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.naviba-list :link {
+  color: rgb(255, 255, 255) !important ;
+  font-size: 22px !important;
+}
+
+.naviba-list li {
+  padding-left: 10px;
+  padding-top: px;
+}
+
+.navi-button li {
+  float: left !important;
+  padding-right: 10px;
+}
+
+.footer {
+  padding: 20px 0px 7px 0px;
+  background-color: #ffffff;
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #4b4c4d;
+}
+
+.footer .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer .social a:hover {
+  opacity: 0.9;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer ul a:hover {
+  opacity: 1;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+/********** background image **********/
+
+.custom-shape-divider-top-1630703892 {
+  position: absolute;
+  top: 85px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1630703892 svg {
+  position: relative;
+  display: block;
+  width: calc(167% + 1.3px);
+  height: 242px;
+}
+
+.custom-shape-divider-top-1630703892 .shape-fill {
+  fill: #fcfcfc;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1630703892 svg {
+    width: calc(152% + 1.3px);
+    height: 118px;
+  }
+}
+
+.back-img {
+  width: 500px;
+  margin-top: 250px;
+  margin-left: 100px;
+}
+
+.index-d2 {
+  margin-left: 720px;
+  margin-top: -400px;
+}
+
+.index-d2 .index-h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  word-spacing: 10px;
+}
+
+.index-btn-02 {
+  margin-left: 20px;
+}
+
+
+.index-h2{
+  font-size: 120px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-left: -380px;
+  margin-top: 150px;
+  color: #ffffff9f;
+}
+
+.index-h3{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 576px) {
+  .index-d2 {
+    margin-left: 120px;
+    margin-top: 40px;
+  }
+
+  .index-d2 .index-h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    word-spacing: 10px;
+  }
+
+  .index-h2{
+    font-size: 58px;
+    margin-left: -95px;
+  }
+
+  .typing-ani {
+    width: 20ch !important;
+    animation: typing 2s steps(22), blink 0.5s step-end infinite alternate !important;
+    white-space: nowrap !important;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 26px !important;
+  }
+
+  .index-btn-02 {
+    margin-left: 0px;
+  }
+
+  .back-img {
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 150px;
+  }
+}
+
+/************** typing animation code *************************/
+
+.typing-ani {
+  width: 31ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #ff464d;
+  font-family: monospace;
+  font-size: 26px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/************** typing animation close *************************/
+
+
+.index-btn-01 {
+  margin-top: 30px;
+  width: 240px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #e8ebf3;
+  border: 3px solid #fd446f;
+  color: #000000;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+.index-btn-01:hover {
+  background-color: #fd446f;
+  color: rgb(255, 255, 255);
+}
+
+/******* login form design *****/
+/*******************************/
+/*******************************/
+/*******************************/
+/*******************************/
+
+.login-form {
+  width: 400px;
+  height: 525px;
+  background-color: white;
+  position: relative;
+  top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px 2px rgb(226, 226, 226);
+  padding: 7px 25px 7px 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-head {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-head h3 {
+  font-size: 50px;
+  margin-top: 10px;
+  color: rgb(255, 102, 46);
+}
+
+.lable {
+  font-size: 20px;
+}
+
+.input-group {
+  margin-top: 20px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 7px;
+  font-size: 22px;
+  border: 2px solid rgba(0, 0, 0, 0.562);
+  color: rgba(0, 0, 0, 0.808);
+}
+
+.input:hover {
+  border-color: rgb(255, 102, 46);
+}
+
+.button-form {
+  width: 408px;
+  height: 50px;
+  background-color: rgb(255, 102, 46);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 43px;
+  font-size: 25px;
+  transform: scale(1);
+}
+
+.button-form:hover {
+  background-color: rgb(255, 88, 27);
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: 300ms;
+}
+
+.forg {
+  text-align: center;
+  margin-top: 25px;
+}
+.forg a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+.forg a:hover {
+  text-decoration: underline;
+  color: rgb(255, 88, 27);
+}
+
+.crate-account {
+  margin-top: 23px;
+  background-color: rgb(255, 88, 27);
+}
+
+/************************************/
+
+/******* class page design *****/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+
+/* .grade-section {
+  margin-top: 150px !important;
+  margin-bottom: 50px !important;
+}
+
+.grade-list {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.grade {
+  background-color: white;
+  box-shadow: 0px 3px 8px 2px rgb(226, 226, 226);
+  height: 160px;
+  margin-bottom: 20px;
+  display: inline-flex;
+}
+
+
+.grade:hover{
+  transform: scale(1.02);
+  box-shadow: 0px 3px 8px 2px rgb(212, 212, 212);
+}
+
+.grade-nu{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: #FF416C;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C) ;
+    background: linear-gradient(to right, #ff4b2be8, #FF416C) ; 
+    margin: 20px 15px;
+    border: none;
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.grade-nu:hover{
+  background: #FF416C;
+  background: -webkit-linear-gradient(to left, #FF4B2B, #FF416C) ;
+  background: linear-gradient(to left, #ff4b2be8, #FF416C) ; 
+}
+
+
+.grade-line{
+  width: 7px;
+  height: 120px;
+  background-color: #a8a8a8;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+
+.grade-name{
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif,Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.671);
+}
+
+.grade-des{
+  margin: 70px 0px 0px -223px;
+  font-size: 17px;
+  width: 250px;
+}
+
+/* .grade-subject{
+  margin: 60px 0px 0px 0px;
+  font-size: 15px;
+} */
+
+.grade-tea {
+  margin: 70px 0px 0px -223px;
+  font-size: 17px;
+}
+
+.grade-class {
+  margin: 70px 0px 0px 50px;
+  font-size: 17px;
+}
+
+.grade-med {
+  width: 120px;
+  height: 40px;
+  margin: 105px 0px 0px -205px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  background: #353535;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  cursor: none;
+}
+
+.english {
+  background-color: rgba(49, 49, 49, 0.719);
+}
+
+.grade-go {
+  width: 110px;
+  height: 40px;
+  margin: 105px 0px 0px 20px;
+  border-radius: 8px;
+  border: 1px solid #ff4b2b;
+  background: #fd446f;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+.grade-go:hover {
+  transform: scale(1.02);
+}
+
+@media only screen and (min-width: 992px) {
+  .grade-name {
+    margin-left: 30px;
+  }
+
+  .grade-line {
+    margin-left: 20px;
+  }
+}
+
+/* body{
+    margin: 0px;
+}
+
+.center{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    
+}
+
+
+.grade-main{
+
+display: inline-flex;
+padding: 20px;
+
+}
+
+.grade-l{
+    background-color: rgb(255, 255, 255);
+    width: 500px ;
+    height: 100px;
+     
+}
+
+.grade-r{
+    background-color: rgb(255, 255, 255);
+    width:500px ;
+    height: 100px;
+
+    margin-left: 30px;    
+} */
+
+/******* password reset page design *****/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+
+.reset-body {
+  background: #e8ebf3;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  margin: -20px 0 50px;
+}
+
+.reset-form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.164), 0 10px 10px rgba(0, 0, 0, 0.082);
+  position: relative;
+  top: 30vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  overflow: hidden;
+  width: 400px;
+  max-width: 100%;
+  min-height: 220px;
+}
+
+.reset-t {
+  text-align: center;
+  font-weight: bold;
+  margin: 15px 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.reset-input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 80%;
+  position: relative;
+  top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-reset {
+  border-radius: 10px;
+  border: 1px solid #ff4b2b;
+  background: #fd446f;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  position: relative;
+  top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* margin-left: 25px;
+    margin-top: 35px; */
+}
+
+.button-reset:hover {
+  cursor: pointer;
+}
+
+.button-reset:active {
+  transform: scale(0.95);
+}
+
+.button-reset:focus {
+  outline: none;
+}
+
+/******* Register page design *****/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+/*******************************/ /********************************************************/
+
+.register-h {
+  margin-bottom: 10px;
+}
+
+.register-d1 {
+  display: inline-flex;
+  padding: 20px;
+}
+
+.reg-d2 {
+  margin-right: 10px;
+}
+
+.reg-d2 select {
+  background-color: #eee;
+  height: 30px;
+  border: none;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.reg-d3 {
+  margin-left: 10px;
+}
+
+.reg-d3 select {
+  background-color: #eee;
+  height: 30px;
+  border: none;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.reg-d3 option {
+  height: 25px;
+}
+
+.register-btn {
+  margin-top: 9px;
+}
+
+.red-te-d2 {
+  margin-top: -10px;
+  position: relative;
+  right: 80%;
+}
+
+
+
+/****Scrollbar ***/
+/*********************************/
+/*********************************/
+/*********************************/
+/*********************************/
+/*********************************/
+/*********************************/
+
+/* width */
+::-webkit-scrollbar {
+  width: 14px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fd446f;
+  border-radius: 0px;
+  
+  
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
